@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    width: 80%;
+    min-height: 700px;
+    margin: 10%;
+    background-image:url(/images/wow.jpeg);
+    border-radius: 40px;
+    background-size:cover;
+}
+.mainheader{
+    width: 100%;
+    min-height: 60px; 
+}
+.logo{
+    width:20%;
+    min-height: 60px;
+    float: left;
+}
+.logo img{
+    width: 50%;
+    height: 54px;
+    padding-left: 80px;
+    padding-top: 6px;
+}
+.menu{
+    width: 50%;
+    min-height: 60px;
+    float: left;
+    line-height: 60px;
+}
+.menu a{
+    padding-left: 90px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 3em;
+    font-weight: bold;
+    color: white;
+    /* padding-bottom: 5px; */
+}
+a:hover{
+    padding-top: 10px;
+    text-decoration: underline 3px rgb(8, 8, 53);   
+}
+.search 
+{
+    width: 15%;
+    height: 40px;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+     display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+input[type=search]{
+    padding: 10px;
+    border-radius: 10px;
+    border: none; 
+    outline: none;
+}
+.search i{
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    color: black;
+}
+.mainbody{
+    width: 100%;
+    min-height: 300px;
+}
+#sp{
+    color:blue;
+}
+.submainbody1{
+    width: 50%;
+    min-height: 500px;
+    float: left;
+    padding:40px;
+    padding-top:150px;
+    padding-right: 180px; 
+    padding-left: 100px;
+    color: white;
+}
+.submainbody2{
+    width: 50%;
+    min-height: 500px;
+    float:left;
+}
+h3{
+    padding-bottom: 10px;
+    color: white;
+}
+#rk{
+    padding-left: 370px;
+}
+#jk{
+    padding-right: 400px;
+}
+.submainbody1 h1{
+    padding-bottom: 20px;
+    font-size:45px;
+    color: white;
+}
+h5{
+    padding-bottom: 20px;
+    color: white;
+}
+.submainbody2 h1{
+    color:white;
+    font-size:50px;
+    padding-top:60px;
+    padding-bottom: 20px;
+}
+.b1 button{
+    float: left;
+    border-radius: 20px;
+    width: 30%;
+    background-color:#bf9782;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1em;
+}
+.b2 button{
+    margin-left:15px;
+    float: left;
+    border-radius: 20px;
+    width: 30%; 
+    background-color:#bf9782;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1em;
+}
+button:hover{
+    background-color:blue;
+}
+.txt{
+    width: 110%;
+    min-height: 50px;
+    margin-bottom: 15px;
+}
+.txt input[type=text]{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.t1{
+    width: 80%;
+    min-height: 40px;
+    float: left;
+    background-color:white;
+    border-radius: 10px;
+}
+.t1 i{
+    padding-left: 30px;
+    padding-top:10px;
+    font-size: 1em;
+}
+.mail{
+    width: 110%;
+    min-height: 50px;
+    margin-bottom: 15px;
+}
+.mail input[type=mail]{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.m1{
+    width: 80%;
+    min-height: 40px;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+}
+.m1 i{
+    font-size: 1em;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.date{
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 15px;
+}
+.d1 input[type=number]{ 
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.d2 input[type=date]{
+    width: 96%;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.d1{
+    width: 45%;
+    min-height: 50px;
+    float: left;
+    margin-right: 0.5%;
+}
+.d2{
+    width: 45%;
+    min-height: 50px;
+    float: left;   
+}
+.pass{
+    width: 110%;
+    min-height: 50px;
+}
+.pass input[type=password]{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.p1{
+    width: 80%;
+    min-height: 40px;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+}
+.p1 i{
+    padding-left: 30px;
+    padding-top: 12px;
+}
+.submainbody2{
+    padding: 30px;
+}
+.submainbody2 h1{
+    margin-bottom: 10px;
+}
+.submainbody2 button{
+    width: 89%;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    background-color:#bf9782;
+}
+.submainbody2 button:hover{
+    background-color:blue;
+}
+
+
+
+
+
+
+
+
+

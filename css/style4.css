@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    min-height:100px;
+    border: 1px solid black;
+}
+.title{
+    width: 100%;
+    min-height: 60px;
+    background-color: aquamarine;
+}
+.mainheader{
+    width: 100%;
+    min-height: 40px;
+    margin-top: 10px;
+}
+.menu{
+    width: 45%;
+    min-height: 40px;
+    float: left;
+    background-color: bisque;
+    margin-right:10%;
+}
+.logo{
+    width: 45%;
+    min-height: 40px;
+    float: left;
+    background-color: lightgrey;
+}
